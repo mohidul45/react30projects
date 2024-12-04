@@ -11,7 +11,10 @@ export default function Two() {
         +
       </button>
       <h1 className="px-3">{counter}</h1>
-      <button className="border border-rounded border-gray-300 px-5 py-3">
+      <button
+        className="border border-rounded border-gray-300 px-5 py-3"
+        onClick={() => setCounter(counter - 1)}
+      >
         -
       </button>
     </div>
