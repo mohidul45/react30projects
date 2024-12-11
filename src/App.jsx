@@ -1,11 +1,13 @@
-import Three from "./Three";
+import ThirtyOne from "./ThirtyOne";
 
 export default function App() {
   return (
     <div className="m-auto justify-items-center align-center mt-10">
       {/* <One /> */}
       {/* <Two /> */}
-      <Three />
+      {/* <Three /> */}
+      {/* <Four /> */}
+      <ThirtyOne />
     </div>
   );
 }
