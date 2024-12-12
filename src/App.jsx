@@ -1,5 +1,4 @@
-import ThirtyOne from "./ThirtyOne";
-
+import ThirtyTwo from "./ThirtyTwo";
 export default function App() {
   return (
     <div className="m-auto justify-items-center align-center mt-10">
@@ -7,7 +6,8 @@ export default function App() {
       {/* <Two /> */}
       {/* <Three /> */}
       {/* <Four /> */}
-      <ThirtyOne />
+      {/* <ThirtyOne /> */}
+      <ThirtyTwo />
     </div>
   );
 }
